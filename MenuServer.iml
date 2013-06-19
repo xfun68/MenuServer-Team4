@@ -36,7 +36,6 @@
       </library>
     </orderEntry>
     <orderEntry type="library" name="lib" level="project" />
-    <orderEntry type="library" name="lib (copy)" level="project" />
     <orderEntry type="module-library">
       <library>
         <CLASSES>
@@ -46,6 +45,7 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="javax.servlet" level="project" />
   </component>
 </module>
 

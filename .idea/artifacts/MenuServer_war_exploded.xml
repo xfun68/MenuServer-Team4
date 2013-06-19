@@ -8,7 +8,7 @@
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="lib" />
-          <element id="library" level="project" name="lib (copy)" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/lib (copy)/commons-io-1.3.jar" />
         </element>
       </element>
       <element id="javaee-facet-resources" facet="MenuServer/web/Web" />

@@ -7,7 +7,7 @@
     <file path="/PostRestuarantTest.java" changelist="c57a662a-49e3-467d-a6d0-c1d23a13495c" time="1371563315120" ignored="false" />
     <file path="/fragment.java" changelist="c57a662a-49e3-467d-a6d0-c1d23a13495c" time="1371627929589" ignored="false" />
     <file path="/PostName.java" changelist="c57a662a-49e3-467d-a6d0-c1d23a13495c" time="1371563262160" ignored="false" />
-    <file path="/PostController.java" changelist="c57a662a-49e3-467d-a6d0-c1d23a13495c" time="1371620061998" ignored="false" />
+    <file path="/PostController.java" changelist="c57a662a-49e3-467d-a6d0-c1d23a13495c" time="1371631306533" ignored="false" />
     <file path="/PostControllerTest.java" changelist="c57a662a-49e3-467d-a6d0-c1d23a13495c" time="1371580607478" ignored="false" />
     <file path="$PROJECT_DIR$/../MenuServer/src/test/java/com/springapp/mvc/HelloControllerTest.java" changelist="c57a662a-49e3-467d-a6d0-c1d23a13495c" time="1371575007849" ignored="false" />
     <file path="/mvc-dispatcher-servlet.xml" changelist="c57a662a-49e3-467d-a6d0-c1d23a13495c" time="1371580376420" ignored="false" />
@@ -103,7 +103,7 @@
       <file leaf-file-name="mvc-dispatcher-servlet.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/mvc-dispatcher-servlet.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="49" selection-start="86" selection-end="88" vertical-scroll-proportion="0.0">
+            <state line="17" column="49" selection-start="1096" selection-end="1096" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -112,10 +112,8 @@
       <file leaf-file-name="PostController.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/controller/PostController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="86" selection-start="1581" selection-end="1581" vertical-scroll-proportion="1.4691689">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="5" column="36" selection-start="201" selection-end="201" vertical-scroll-proportion="0.4360465">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -123,7 +121,7 @@
       <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="649" selection-end="720" vertical-scroll-proportion="0.0">
+            <state line="20" column="12" selection-start="720" selection-end="720" vertical-scroll-proportion="-12.0">
               <folding />
             </state>
           </provider>
@@ -150,7 +148,7 @@
       <file leaf-file-name="PandaBite.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/pages/PandaBite.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="6" selection-start="228" selection-end="235" vertical-scroll-proportion="0.0">
+            <state line="12" column="1" selection-start="264" selection-end="264" vertical-scroll-proportion="-7.5">
               <folding />
             </state>
           </provider>
@@ -230,15 +228,9 @@
               <option name="myItemId" value="MenuServer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MenuServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MenuServer-Team4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -248,14 +240,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="MenuServer-Team4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -274,10 +258,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -300,10 +280,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="image" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -357,6 +333,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MenuServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MenuServer-Team4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MenuServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MenuServer-Team4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -370,7 +378,7 @@
     <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="appearance" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/lib (copy)/javax.servlet.jar!/" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -390,6 +398,10 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="controller" />
       <recent name="model" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/WEB-INF" />
+      <recent name="$PROJECT_DIR$/web/WEB-INF/pages" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.MenuServer">
@@ -658,10 +670,10 @@
       </method>
     </configuration>
     <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.MenuServer" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.PostRestuarantTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.All in MenuServer" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.PostControllerTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.PostRestuarantTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.All in MenuServer" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.PostControllerTest" />
+      <item index="3" class="java.lang.String" itemvalue="Tomcat Server.MenuServer" />
     </list>
     <recent_temporary>
       <list size="3">
@@ -724,8 +736,8 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24801272" sideWeight="0.672" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.328" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24801272" sideWeight="0.3504" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.6496" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24960254" sideWeight="0.672" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -815,9 +827,7 @@
     <entry file="file://$PROJECT_DIR$/src/controller/PostController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="17" selection-start="245" selection-end="251" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -849,44 +859,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/mvc-dispatcher-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="49" selection-start="86" selection-end="88" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/Desktop/lib/spring-core-3.2.2.RELEASE.jar!/org/springframework/util/Assert.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="60" column="0" selection-start="2864" selection-end="2864" vertical-scroll-proportion="0.80597013" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="649" selection-end="720" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/AcceptanceTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="0" selection-start="880" selection-end="880" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pages/PandaBite.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="6" selection-start="228" selection-end="235" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -912,12 +892,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pages/PandaBite.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="1" selection-start="264" selection-end="264" vertical-scroll-proportion="-7.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/mvc-dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="49" selection-start="1096" selection-end="1096" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="12" selection-start="720" selection-end="720" vertical-scroll-proportion="-12.0">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/controller/PostController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="86" selection-start="1581" selection-end="1581" vertical-scroll-proportion="1.4691689">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="5" column="36" selection-start="201" selection-end="201" vertical-scroll-proportion="0.4360465">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -999,7 +1007,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>lib (copy)</last-edited>
+          <last-edited>javax.servlet</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
