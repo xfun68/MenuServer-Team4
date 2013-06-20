@@ -14,7 +14,8 @@ import java.util.Map;
 
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
-import static org.mockito.Matchers.eq;
+import static org.mockito.Matchers.anyString;
+import static org.mockito.Mockito.eq;
 import static org.mockito.Mockito.spy;
 
 /**
@@ -48,16 +49,17 @@ public class PostControllerTest {
         assertThat(actualView, is(expectedView));
     }
 
-  /*  @Test
+
+    @Test
 
     public void should_render_to_a_picture() throws IOException {
         PostController spyPostController = spy(postController);
         byte[] expectedBytes = "Picture".getBytes();
-        String picturePath = "WEB-INF/pages/image/oso.jpeg";
+        String picturePath = "WEB-INF/pages/image/food.jpg";
 
         Mockito.doReturn(expectedBytes).when(spyPostController).getPicture(eq(picturePath));
 
         assertThat(spyPostController.renderPicture(),is(expectedBytes));
-    }      */
+    }
 
 }

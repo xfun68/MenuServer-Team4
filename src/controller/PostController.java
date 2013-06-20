@@ -1,5 +1,4 @@
 package controller;
-
 import org.apache.commons.io.IOUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
@@ -31,8 +30,6 @@ public class PostController {
         model.addAttribute("message", "PandaBite");
         return "PandaBite";
     }
-    /*@RequestMapping(value = "/PandaBite", method = RequestMethod.GET, headers={"Accept=application/xml"})
-    @ResponseBody */
 
 
     @RequestMapping( value = "/picture", method = RequestMethod.GET , produces = MediaType.IMAGE_JPEG_VALUE)
@@ -44,9 +41,9 @@ public class PostController {
     }
 
     public byte[] getPicture(String path) throws IOException{
-        InputStream resourceAsStream;
 
-        resourceAsStream = servletContext.getResourceAsStream(path);
+       InputStream resourceAsStream;
+       resourceAsStream = servletContext.getResourceAsStream(path);
 
         return IOUtils.toByteArray(resourceAsStream);
     }
