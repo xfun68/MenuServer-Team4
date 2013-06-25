@@ -1,7 +1,7 @@
 <component name="libraryTable">
-  <library name="javax.servlet">
+  <library name="spring-webmvc">
     <CLASSES>
-      <root url="jar://C:/lib1/javax.servlet.jar!/" />
+      <root url="jar://C:/lib/spring-webmvc.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

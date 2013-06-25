@@ -2,19 +2,35 @@ package model;
 
 /**
  * Created with IntelliJ IDEA.
- * User: lilliansusan
- * Date: 6/20/13
- * Time: 9:37 AM
+ * User: Jamie
+ * Date: 24/06/13
+ * Time: 11:33
  * To change this template use File | Settings | File Templates.
  */
 public class Dish {
-    private String dishName;
+    private  String myDish;
+    private  int price;
 
-    public Dish(String dishName) {
-        this.dishName = dishName;
+    public Dish(String myDish) {
+        this.myDish = myDish;
     }
 
-    public String getDishName() {
-        return dishName;
+    public Dish(String myDish, int price) {
+        this.myDish = myDish;
+        this.price = price;
+        //To change body of created methods use File | Settings | File Templates.
+    }
+
+    @Override
+    public String toString() {
+        return myDish;
+    }
+
+
+    public String myDishAttributes() {
+
+        String dishPrice = String.valueOf(price);
+
+        return myDish + dishPrice;
     }
 }

@@ -7,25 +7,19 @@ import static org.junit.Assert.assertThat;
 
 /**
  * Created with IntelliJ IDEA.
- * User: lilliansusan
- * Date: 6/20/13
- * Time: 9:25 AM
+ * User: Jamie
+ * Date: 24/06/13
+ * Time: 11:31
  * To change this template use File | Settings | File Templates.
  */
 public class DishTest {
 
     @Test
+    public  void should_display_dish_name_and_price(){
+        Dish dish = new Dish("Fried Beef", 10000);
+        String myDish = dish.myDishAttributes();
 
-    public void should_display_dish_name(){
-
-        Dish dish = new Dish("Sushi");
-
-        String dishName = dish.getDishName();
-
-        assertThat(dishName, is("Sushi"));
-
+        assertThat(myDish.toString(),  is("Fried Beef" + "10000"));
     }
-
-
 
 }

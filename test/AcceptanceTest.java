@@ -2,6 +2,7 @@ import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
 import org.springframework.test.web.servlet.MockMvc;
@@ -14,8 +15,9 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import static org.springframework.test.web.servlet.setup.MockMvcBuilders.webAppContextSetup;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@WebAppConfiguration("file:src/main/web/WEB-INF/mvc-dispatcher-servlet.xml")
-class AcceptanceTest {
+@WebAppConfiguration
+@ContextConfiguration("file:web/WEB-INF/mvc-dispatcher-servlet.xml")
+public class acceptanceTest {
     private MockMvc mockMvc;
 
     @SuppressWarnings("SpringJavaAutowiringInspection")
@@ -28,23 +30,17 @@ class AcceptanceTest {
     }
 
     @Test
-    public void simpleRestaurantName() throws Exception {
-        mockMvc.perform(get("/"))
+    public void restaurantName() throws Exception {
+        mockMvc.perform(get("/Restaurant"))
                 .andExpect(status().isOk())
-                .andExpect(view().name("Panda Bite"));
-    }
-
-    @Test
-    public void xmlPandaBite() throws Exception {
-        mockMvc.perform(get("/Panda Bite"))
-                .andExpect(status().isOk())
-                .andExpect(header().string("Content-Type","application/xml"));
+                .andExpect(view().name("Restaurant"));
     }
 
     @Test
     public void picture() throws Exception {
-        mockMvc.perform(get("/picture"))
+        mockMvc.perform(get("/Picture"))
                 .andExpect(status().isOk())
-                .andExpect(header().string("Content-Type","image/jpeg"));
+                .andExpect(header().string("Content-Type","image/jpg"));
     }
-}
+
+    }

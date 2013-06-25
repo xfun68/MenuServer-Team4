@@ -5,59 +5,58 @@ import org.junit.Before;
 import org.junit.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
+import org.mockito.Mockito;
 import org.mockito.MockitoAnnotations;
 import org.springframework.ui.ModelMap;
 
+import java.io.IOException;
+
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
+import static org.mockito.Matchers.eq;
+import static org.mockito.Mockito.spy;
 
 /**
  * Created with IntelliJ IDEA.
- * User: lilliansusan
- * Date: 6/20/13
- * Time: 11:51 AM
+ * User: Jamie
+ * Date: 24/06/13
+ * Time: 11:42
  * To change this template use File | Settings | File Templates.
  */
 public class DishControllerTest {
-    private ModelMap dishModel;
+    private ModelMap dishmodel;
 
     @InjectMocks
-
-   DishController dishController;
+    DishController dishController;
 
     @Mock
-
     Dish dish;
 
-
     @Before
-    public void setup() {
+    public void setup(){
         dishController = new DishController();
         MockitoAnnotations.initMocks(this);
     }
 
+
     @Test
-
-    public void  should_display_dish_name(){
-
-        dishModel = new ModelMap();
-        String expectedView = "PandaBite";
-
-        String actualView = dishController.printDishName(dishModel);
+    public void should_display_dish_name_and_price(){
+        dishmodel = new ModelMap();
+        String expectedView = "DishAttributes";
+        String actualView = dishController.printDishAttributes(dishmodel);
 
         assertThat(actualView, is(expectedView));
     }
 
-    /*@Test
-    public void should_render_to_xml_dish_name(){
-        String expectedXml = "<?xml version=\"1.0\" encoding=\"utf-8\"?>" +
-                "<message>Welcome to Panda Bite" +
-                "<p>Here is your menu</p></message>";
+    @Test
+    public void should_render_to_a_picture() throws IOException {
+        DishController spyDishController = spy(dishController);
+        byte[] expectedBytes = "DishPicture".getBytes();
+        String picturePath = "WEB-INF/pages/image/FriedBeef.jpg";
 
-        String actualXml = dishController.printWelcomeXml();
+        Mockito.doReturn(expectedBytes).when(spyDishController).getPicture(eq(picturePath));
 
-        assertThat(actualXml, is(expectedXml));
+        assertThat(spyDishController.renderPicture(),is(expectedBytes));
     }
-                        */
 
 }

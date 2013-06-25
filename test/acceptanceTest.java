@@ -14,13 +14,6 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.view;
 import static org.springframework.test.web.servlet.setup.MockMvcBuilders.webAppContextSetup;
 
-/**
- * Created with IntelliJ IDEA.
- * User: lilliansusan
- * Date: 6/20/13
- * Time: 10:17 AM
- * To change this template use File | Settings | File Templates.
- */
 @RunWith(SpringJUnit4ClassRunner.class)
 @WebAppConfiguration
 @ContextConfiguration("file:web/WEB-INF/mvc-dispatcher-servlet.xml")
@@ -37,23 +30,17 @@ public class acceptanceTest {
     }
 
     @Test
-    public void simpleRestaurantName() throws Exception {
-        mockMvc.perform(get("/"))
+    public void restaurantName() throws Exception {
+        mockMvc.perform(get("/Restaurant"))
                 .andExpect(status().isOk())
-                .andExpect(view().name("PandaBite"));
+                .andExpect(view().name("Restaurant"));
     }
-
-    /*@Test
-    public void xmlPandaBite() throws Exception {
-        mockMvc.perform(get("/PandaBite"))
-                .andExpect(status().isOk())
-                .andExpect(header().string("Content-Type","application/xml"));
-    }     */
 
     @Test
     public void picture() throws Exception {
-        mockMvc.perform(get("/picture"))
+        mockMvc.perform(get("/Picture"))
                 .andExpect(status().isOk())
-                .andExpect(header().string("Content-Type","image/jpeg"));
+                .andExpect(header().string("Content-Type","image/jpg"));
     }
-}
+
+    }
