@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="MenuServer:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/MenuServer_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="MenuServer" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lib" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/lib (copy)/commons-io-1.3.jar" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="MenuServer/web/Web" />
+    </root>
+  </artifact>
+</component>
