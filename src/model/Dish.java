@@ -9,16 +9,10 @@ package model;
  */
 public class Dish {
     private  String myDish;
-    private  int price;
+    private  String price;
 
     public Dish(String myDish) {
         this.myDish = myDish;
-    }
-
-    public Dish(String myDish, int price) {
-        this.myDish = myDish;
-        this.price = price;
-        //To change body of created methods use File | Settings | File Templates.
     }
 
     @Override
@@ -27,10 +21,20 @@ public class Dish {
     }
 
 
-    public String myDishAttributes() {
+    public String printDishPrice(String price) {
+        this.price = price;
+        return price;
+    }
+
+    public String printDishName() {
+         return myDish;
+    }
+
+
+    /** public String myDishAttributes() {
 
         String dishPrice = String.valueOf(price);
 
         return myDish + dishPrice;
-    }
+    } **/
 }

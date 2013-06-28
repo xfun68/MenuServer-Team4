@@ -40,10 +40,19 @@ public class DishControllerTest {
 
 
     @Test
-    public void should_display_dish_name_and_price(){
+    public void should_display_dish_name(){
         dishmodel = new ModelMap();
-        String expectedView = "DishAttributes";
-        String actualView = dishController.printDishAttributes(dishmodel);
+        String expectedView = "DishName";
+        String actualView = dishController.printDishName(dishmodel);
+
+        assertThat(actualView, is(expectedView));
+    }
+
+    @Test
+    public void should_display_dish_price(){
+        dishmodel = new ModelMap();
+        String expectedView = "DishPrice";
+        String actualView = dishController.printDishPrice(dishmodel);
 
         assertThat(actualView, is(expectedView));
     }
@@ -52,7 +61,7 @@ public class DishControllerTest {
     public void should_render_to_a_picture() throws IOException {
         DishController spyDishController = spy(dishController);
         byte[] expectedBytes = "DishPicture".getBytes();
-        String picturePath = "WEB-INF/pages/image/FriedBeef.jpg";
+        String picturePath = "WEB-INF/pages/image/";
 
         Mockito.doReturn(expectedBytes).when(spyDishController).getPicture(eq(picturePath));
 

@@ -7,7 +7,7 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-<title> My Restaurant Menu</title>
+<title></title>
 <body>
 <h1>${message}</h1>
 

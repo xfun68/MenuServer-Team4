@@ -15,11 +15,20 @@ import static org.junit.Assert.assertThat;
 public class DishTest {
 
     @Test
-    public  void should_display_dish_name_and_price(){
-        Dish dish = new Dish("Fried Beef", 10000);
-        String myDish = dish.myDishAttributes();
+    public  void should_display_dish_name(){
+        Dish dish = new Dish("Fried Beef");
+        String myDish = dish.printDishName();
 
-        assertThat(myDish.toString(),  is("Fried Beef" + "10000"));
+        assertThat(myDish.toString(),  is("Fried Beef"));
     }
+
+    @Test
+    public  void should_display_dish_name_and_price(){
+        Dish dish = new Dish("UGX 10,000");
+        String myDish = dish.printDishPrice("UGX 10,000");
+
+        assertThat(myDish.toString(),  is("UGX 10,000"));
+    }
+
 
 }

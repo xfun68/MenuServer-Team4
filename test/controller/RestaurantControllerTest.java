@@ -31,7 +31,7 @@ public class RestaurantControllerTest {
     }
 
     @Test
-    public void should_post_restaurant_name(){
+    public void should_display_restaurant_name(){
         model = new ModelMap();
         String expectedView = "Restaurant";
 
